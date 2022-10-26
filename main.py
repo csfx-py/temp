@@ -1,2 +1,8 @@
-import photoCheckin.py
-import like.py
+import os, sys
+oc.chdir(sys.path[0])
+
+from photoCheckin.py import photoChecker
+from like.py import liker
+
+photoChecker()
+liker()
